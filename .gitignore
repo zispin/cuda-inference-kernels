@@ -1,0 +1,32 @@
+# Build outputs
+build/
+build*/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pyd
+*.exp
+*.ilk
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Results generated locally
+results/*.csv
+results/*.md
+!results/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+*.swp
